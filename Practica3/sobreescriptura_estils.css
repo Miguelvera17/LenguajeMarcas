@@ -1,0 +1,61 @@
+/*1. color general de la lletra negra*/
+body{ 
+    color:#000000;
+}
+/*2. titol nivell 1 fons blanc lletra gris*/
+#container #titol-pagina{
+    background:#ffffff;
+    color:#868080b0;
+} 
+/*3. tots els strong en color verd i subratllats*/
+#container .paragraf1 strong {
+    color:#1eec2f;
+    text-decoration: underline;
+}
+#container .paragraf2 strong{
+    color:#1eec2f;
+    text-decoration: underline;
+}
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 a{
+    font-style: italic; 
+    color:#ff0000;
+    text-decoration: underline;
+}
+/*5. footer general del web centrat i lletra de 10px*/
+h3 + div + footer {
+    text-align: center;
+    font-size: 10px;
+}
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+/*Los cambios que se visualizan en el explorador se veran los que estan definidos de manera mas restrictiva.
+
+Los ejemplos que de visualizan con cambio son:
+1. body: el color del cuerpo se ve con letra regra y tamaño de letra 18 px
+2. el titulo de la pagina
+2. el enlace del parrafo 2 
+4. el footer del pie de pagina
+
+Los elementos que no se ven reflejados en el cambio son:
+1. Strong, no todos los strong se visualizan verde.
+2. Los h2 se vuelven grises
+
+Codigo nuevo
+
+1. h2 color negro
+header {
+    color:#000000; 
+}
+2. tots els strong en color verd i subratllats
+body strong {
+    color:#1eec2f;
+    text-decoration: underline;
+}
+#container .paragraf2 strong{
+    color:#1eec2f;
+    text-decoration: underline;
+}
+
+Con esto visualizamos todos los strong
+
+*/
