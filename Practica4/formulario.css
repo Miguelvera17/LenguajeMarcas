@@ -1,0 +1,45 @@
+/*1. color background color solido*/
+body{
+    background-color:lightsalmon;
+}
+/*2. fuente distinta de la pagina web*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/*3. texto corto y email 300 px*/
+.email{
+    width: 300px;
+    display: inline-block;
+}
+.nombre{
+    width: 300px;
+    display: inline-block;
+}
+
+/*4. Entrada numerica 100 px*/
+#edad{
+    width: 100px;
+    display: inline-block;
+}
+/*5. Botones con medida predefinida, color solido background personalizado y
+cuando el ratón pase por encima de hover, hara efecto*/
+.button{
+    background-color: aqua;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+/* Definimos el cambio de estilo del botón */
+.button:hover{
+    color:white;
+    padding-right: 20px;
+    font-size: 20px;
+    position: absolute;
+    background-color: blue;
+}
+/*6. Todos los elementos que tengas focus sea amarillo*/
+input:focus {
+    background-color: yellow;
+  }
+ textarea:focus {
+    background-color: yellow;
+  }
