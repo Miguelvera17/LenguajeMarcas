@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="formulario.css"> <!--Referencia de los estilos en css-->
+</head>
+<body>
+    <div>
+        <h1 id="titulo-pagina">Subscriu-te a nuestro sitio web </h1>  <!--Titulo de la web-->
+            
+                <p><b>Volem saber més de tu ...</b></p>
+                <form action = "formulari_enviat.html" method="post"> <!--formulario que procesara-->
+                    <label for = "email"> Email:</label>       
+                    <input class = "email" Email="email" required placeholder="Ej: 123@mail.com"> <!--campo de email-->
+                <br><br>
+                    <label for = "nombre"> Nom i cognoms:</label>
+                    <input class = "nombre" required placeholder="Ej: Alejandro Pina"> <!--campo de nombre y apellido-->
+                <br><br>
+                    <label for = "edad"> Edat:</label>
+                    <input id = "edad" placeholder="Ej: 18" required> <!--campo de edad-->
+                    
+                <br><br>
+                
+                <p><b>Motiu de subscripció</b></p> <!--campo de eleccion multiple-->
+
+                    <input type="radio" id ="motivo" name="motivo">
+                    <label for="opcion uno" > Oci </label><br> <!--campo de eleccion multiple-->
+
+                    <input type="radio" id ="motivo" name="motivo">
+                    <label for="opcion dos" > Investigació </label><br> <!--campo de eleccion multiple-->
+                    
+                    <input type="radio" id ="motivo" name="motivo" checked="checked">
+                    <label for="opcion tres" > Altres </label><br> <!--campo de eleccion multiple-->
+                <br>
+
+                <label for="elemento">Temps de subscripció</label>  <!--campo de eleccion multiple-->     
+                <select id="elemento" name="elemento">
+                    <option value="elemento1">1 mes</option> <!--campo de texto desplegable-->
+                    <option value="elemento2">3 mesos</option> <!--campo de texto desplegable-->
+                    <option value="elemento3">1 any</option> <!--campo de texto desplegable-->
+                </select>
+
+                <p><b>Marca els temes que vulguis estar sempre al dia!</b></p> <!--campo de eleccion multiple--> 
+
+                    <input type="checkbox" id ="tema1" checked="checked">
+                    <label for="tema1" > Grandària de les aranyas </label><br> <!--campo de eleccion multiple--> 
+                    <input type="checkbox" id ="tema2">
+                    <label for="tema2" >  Tipus de aranyas</label><br> <!--campo de eleccion multiple--> 
+                    <input type="checkbox" id ="tema3">
+                    <label for="tema3" > Saber més de les aranyas </label><br> <!--campo de eleccion multiple--> 
+
+                <p> Hi ha algun tema més que t'interessi? Explica'ns-ho! </p>
+                    <label for="textarea"></label>
+                    <textarea id="textarea" name="textarea" required rows="10" cols="50" placeholder = "M'agradaria rebre informació relacionada de..." ></textarea><br> <!--campo de texto--> 
+                <br>
+                    <input type = "submit" class = "button" onclick = "href='formulari_enviat.html'" value="Subscriu-me!" > <!--boton de envio de información--> 
+                
+                </form>
+    </div>            
+</body>
+</html>
