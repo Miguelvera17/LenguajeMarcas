@@ -3,7 +3,6 @@ body{
     margin:  0px;
     background-color: rgb(248, 248, 248);
 }
-
 #title{
     background-color: rgb(100, 98, 95);
     position:fixed;
@@ -11,51 +10,53 @@ body{
     width: 100%;
     text-align: center;
     color: rgb(255, 255, 255);
+    font-size: 20px; 
 }
-
 nav {
     background-color: rgb(24, 23, 23);
     position:sticky;
-    top: 70px;
-    text-align: center;  
+    top: 90px;
+    text-align: center; 
+    padding: 5px;
+    font-size: 20px; 
 }
-
 a{
     color: white;
 }
-
 main{
     text-align: center;
     padding: 40px;
-    margin:  240px;
+    margin:  40px;
 }
 #seccio1{
     background-color:rgb(252,243,213);
     font-style: oblique;
     padding: 20px;
     margin:  20px;
+    font-size: 20px;
 }
 #seccio2{
     background-color: rgb(252,243,171);
     font-style: initial;
     padding: 20px;
     margin:  20px;
+    font-size: 20px;
 }
 #seccio3{
     background-color: rgb(209, 202, 192);
     font-style: unset;
     padding: 20px;
     margin:  20px;
+    font-size: 20px;
 }
 footer{
     background-color: rgb(100, 98, 95);
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 0px;
+    padding: 1px;
     margin: 0px;
 }
-img {
-    display: block;
+img { 
     margin-left: auto;
     margin-right: auto;
     width: 70%;
