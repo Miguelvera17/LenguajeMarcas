@@ -1,0 +1,11 @@
+<style> 
+    h1 { 
+        color:blue;
+        text-align:center
+    }
+
+    h2 {
+            background-color:rgb(77, 189, 182);
+     }
+
+</style>
