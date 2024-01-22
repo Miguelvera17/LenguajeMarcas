@@ -1,0 +1,68 @@
+{
+    "pokemones": [
+      {
+        "id": "0001",
+        "nombre": "Pikachu",
+        "tipo": ["Eléctrico"],
+        "peso": "6.0 kg",
+        "altura": "0.4 m",
+        "estadisticas": {
+          "velocidad": 4,
+          "fortaleza": 4,
+          "precision": 4,
+          "resistencia": 4
+        },
+        "movimientos": [
+          {
+            "nombre": "-impactrueno",
+            "descripcion": "Es un movimiento de tipo eléctrico",
+            "potencia": 40,
+            "contacto": false
+          },
+          {
+            "nombre": "Chispazo",
+            "descripcion": "Descarga eléctrica",
+            "potencia": 80,
+            "contacto": false
+          }
+        ],
+        "Imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/300px-Pikachu.png",
+        "Evoluciones": [
+          {
+            "id": "0026",
+            "nivel": 28,
+            "Piedra": "Piedra trueno"
+          }
+        ]
+      },
+      {
+        "id": "0026",
+        "nombre": "Raichu",
+        "tipo": ["Eléctrico"],
+        "peso": "30.0 kg",
+        "altura": "0.8 m",
+        "estadisticas": {
+          "velocidad": 3,
+          "fortaleza": 5,
+          "precision": 5,
+          "resistencia": 5
+        },
+        "movimientos": [
+          {
+            "nombre": "VoltioCambio",
+            "descripcion": "Fuerza cambio del usuario por otro pokémon",
+            "potencia": 70,
+            "contacto": false
+          },
+          {
+            "nombre": "Abrea¡caminos",
+            "descripcion": "Aumenta la velocidad del usuario",
+            "potencia": 50,
+            "contacto": true
+          }
+        ],
+        "Imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/3/34/Raichu.png"
+        }
+    ]
+  }
+  
